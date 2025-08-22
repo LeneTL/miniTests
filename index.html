@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <h2>Buttons!</h2>
+    <div id="mydiv">-_- Zzz</div>
+    <br>
+    <button onclick="changeDivText()">wake up!</button>
+    <button onclick="changeDivColor()">Endre bakgrunnsfarge</button>
+    <br>
+    <button onclick="restoreDivText()">go to sleep!</button>
+    <button onclick="restoreDivColor()">Restore bakgrunnsfarge</button>
+    <br>
+    
+
+    <div class="itemsGrid"> <!--as buttons -->
+    <button onclick=""><img src="Images/BotW_Red_Rupee_Icon.png" alt="rupee" class="itemSize" onclick="changeDivText()"></button>
+    <button onclick=""><img src="Images/TotK_Hearty_Elixir_Icon.png" alt="hartyPotion" class="itemSize" onclick="changeDivText()"></button>
+    <button onclick=""><img src="Images/TotK_Hasty_Elixir_Icon.png" alt="hastePotion" class="itemSize" onclick="restoreDivText()"></button>
+    <button onclick=""><img src="Images/TPHD_Hylian_Shield_Artwork.png" alt="shield" class="itemSize" onclick="restoreDivText()" ></button>
+    </div>
+
+    <div class="itemsGrid"> <!--Not as buttons -->
+    <img src="Images/BotW_Red_Rupee_Icon.png" alt="rupee"  class="itemSize" onclick="changeDivText()">
+    <img src="Images/TotK_Hearty_Elixir_Icon.png" alt="hartyPotion" class="itemSize" onclick="changeDivText()">
+    <img src="Images/TotK_Hasty_Elixir_Icon.png" alt="hastePotion" class="itemSize" onclick="restoreDivText()">
+    <img src="Images/TPHD_Hylian_Shield_Artwork.png" alt="shield" class="itemSize" onclick="restoreDivText()">
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h3>numbercount</h3>
+    <div id="output">0</div>
+    <button onclick="addNumber()">+</button>
+    <button onclick="subtractNumber()">-</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>

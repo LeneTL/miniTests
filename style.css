@@ -1,0 +1,25 @@
+Body{
+    background: #313137;
+    color: #c4c4c4;
+}
+.red{
+    background-color: rgba(183, 18, 18, 0.681);
+}
+
+.itemsGrid{
+    display: flex;
+    /* flex-direction: row; */
+    /* border: #f0f2eb solid 10px; */
+    width: fit-content;
+}
+
+.itemSize{
+    width: 100px;
+    height: 100px;
+
+
+}
+
+button{
+    background-color: transparent;
+}
