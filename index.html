@@ -10,13 +10,13 @@
 
     <h2>Buttons!</h2>
     <div id="mydiv">-_- Zzz</div>
-    <br>
+<br>
     <button onclick="changeDivText()">wake up!</button>
     <button onclick="changeDivColor()">Endre bakgrunnsfarge</button>
-    <br>
+<br>
     <button onclick="restoreDivText()">go to sleep!</button>
-    <button onclick="restoreDivColor()">Restore bakgrunnsfarge</button>
-    <br>
+    <button onclick="restoreDivColor()">Restore bakgrunnsfarge</button> 
+<br>
     
 
     <div class="itemsGrid"> <!--as buttons -->
@@ -33,18 +33,44 @@
     <img src="Images/TPHD_Hylian_Shield_Artwork.png" alt="shield" class="itemSize" onclick="restoreDivText()">
     </div>
 
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
     <h3>numbercount</h3>
     <div id="output">0</div>
     <button onclick="addNumber()">+</button>
     <button onclick="subtractNumber()">-</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <h3>changingDiv</h3> <!--27.08.2025-->
+    <div id="changingDiv"></div>
+    <button onclick="changeTextAndColourAndSize('red','50','50','red square')">smol red</button>
+    <button onclick="changeTextAndColourAndSize('blue','250','100','blue rectangular!')">big blue</button>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <h3>Changing The Website Background</h3>
+    <div class="itemsGrid" >
+    <div class="green" onclick="selectBodyColour('#5aa25f' )" id="borderOn">⛶</div>
+    <div class="blue" onclick="selectBodyColour('#182878')" id="borderOn">⛶</div>
+    <div class="purple" onclick="selectBodyColour('#885aa2')" id="borderOn">⛶</div>
+    </div>
+    
+    <button onclick="applyBodyColour()">change colourMode</button>
+    <script src="script.js"></script>
+<!-- Jeg finner ikke ut av border greia og jeg skjønner ikke: "'Lag deretter 2 eller flere tomme (men synlige) div'er.
+Disse er de som skal klikkes på for å velges og da få den bakgrunnsfargen man har valgt fra fargedivene.'" 
 
-<script src="script.js"></script>
-
+continued this code in 'ByttingAvBakgrunnsfarge'-->
 </body>
 </html>

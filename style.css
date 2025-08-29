@@ -1,4 +1,4 @@
-Body{
+body{
     background: #313137;
     color: #c4c4c4;
 }
@@ -23,4 +23,28 @@ Body{
 button{
     background-color: transparent;
     color: #c4c4c4; 
+}
+
+/* ---------------------------------------------- */
+/* ⛾ */
+.green{
+background-color: #5aa25f;
+width: fit-content;
+color: #090909;
+border: none;
+}
+.blue{
+background-color: #182878;
+width: fit-content;
+color: #959595;
+border: none;
+}
+.purple{
+background-color: #885aa2;
+width: fit-content;
+color: #090909;
+border: none;
+}
+.border{
+    border: #090909 1px solid;
 }
