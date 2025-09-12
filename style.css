@@ -48,3 +48,8 @@ border: none;
 .border{
     border: #090909 1px solid;
 }
+
+
+.Icon{
+    display: none;
+}
