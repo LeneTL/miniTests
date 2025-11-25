@@ -238,3 +238,18 @@ document.getElementById("A").innerHTML += document.getElementById("A").innerHTML
 
 //------------------------------------------------------------------ 12.09.2025
 
+
+
+function addWord(value){
+if(document.getElementById("firstword").innerHTML == '____')
+document.getElementById("firstword").innerHTML = addWord(value)
+}
+
+//------------------------------
+
+//Switcher function:
+$(".rb-tab").click(function(){
+  //Spot switcher:
+  $(this).parent().find(".rb-tab").removeClass("rb-tab-active");
+  $(this).addClass("rb-tab-active");
+});
